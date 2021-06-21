@@ -91,6 +91,16 @@ main section h1{
 .card-holder figure img:hover {
     filter: grayscale(0%);
 }
+
+#label-refractor {
+    position: absolute;
+    bottom: 40px;
+    left: 250px;
+    background-color: pink;
+    padding: 10px;
+}
+
+
 #aboutMe {
     padding-bottom: 70px;
 }
