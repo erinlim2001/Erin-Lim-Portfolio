@@ -4,7 +4,7 @@
   }
 
 
-
+/* adjusts nav bar measurements, background color, text color*/
 header {
     height: 60px;
     width: 100%;
@@ -16,37 +16,42 @@ header {
     padding: 30px;
 }
 
+/* puts pink box around name in nav bar */
 header h1 {
     background-color: lightpink;
     padding: 10px 40px;
 }
 
+/* displays bookmarks in nav bar inline */
 li {
     display: inline;
     padding: 20px;
-    text-decoration: none;
 }
 
+/* makes bookamrks in nav bar white */
 header a {
-    
     color: white;
 }
 
+/* makes main section headers and content align*/
 section {
     padding: 20px;
     display: flex;
     align-items:center;
 }
 
+/* sets dimension for paragraph in about me section */
 section p {
     margin-left: 20px;
     width: 80%;
 }
-
+/* sets contact me text color*/
 section a {
-    margin-left: 20px;
+    margin: 20px;
+    color: lightcoral;
 }
 
+/* sets About Me, Work, Contact Me headers dimensions*/
 main section h1{
     width: 15%;
     text-align: right;
@@ -54,11 +59,10 @@ main section h1{
     border-right: 3px solid;
 }
 
-div p {
-    font-size: xx-small;
-    text-align: left;
-}
+/* */
 
+
+/* sets image under nav bar */
 .chevron {
     width: 100%;
 }
@@ -84,23 +88,7 @@ div p {
     padding: 7px;
 }
 
-.project-card {
-    position: relative;
-    text-align: center;
 
-}
-#surf-report {
-    margin: 20px;
-    width: 660px;
-    height: 294px;
-    border: 5px solid pink;
-}
-
-#led-wall {
-    width: 443px;
-    height: 150px;
-    border: 5px solid pink;
-}
 #aboutMe {
     padding-bottom: 70px;
 }
