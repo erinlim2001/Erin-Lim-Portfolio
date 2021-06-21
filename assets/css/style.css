@@ -67,11 +67,14 @@ main section h1{
     width: 100%;
 }
 
+/* Places subtitle in chevron image*/
 .container {
     position: relative;
     text-align: center;
     color: white;
 }
+
+/* sets position of subtitle and background color*/
 .subtitle {
     position: absolute;
     bottom: 20px;
@@ -80,15 +83,14 @@ main section h1{
     padding: 10px;
 }
 
-.label {
-    background-color: pink;
-    position: absolute;
-    bottom: 50px;
-    left: 20px;
-    padding: 7px;
+.card-holder figure img {
+    border: 5px solid pink;
+    filter: grayscale(50%);
 }
 
-
+.card-holder figure img:hover {
+    filter: grayscale(0%);
+}
 #aboutMe {
     padding-bottom: 70px;
 }
