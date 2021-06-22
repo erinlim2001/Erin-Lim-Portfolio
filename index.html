@@ -5,78 +5,95 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Erin Lim Portfolio</title>
-    <link rel="stylesheet" href="assets/css/reset.css"/>
-    <link rel="stylesheet" href="assets/css/style.css"/>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
 </head>
 <body>
-    <header>
+    <header> <!-- Nav Bar -->
         <h1>Erin Lim</h1>
-        <nav>
-            <ul>
-                <li> <a href="#aboutMe">About Me</a></li>
-                <li> <a href="#work">Work</a></li>
-                <li> <a href="#contactMe">Contact Me</a></li>
-                <li> <a href="#resume">Resume</a></li>
-            </ul>
-        </nav>
-    
+        <p>Welcome to my portfolio!</p>
     </header>
+
+    <nav>
+        <a href="#aboutMe">About Me</a></li>
+        <a href="#work">Work</a></li>
+        <a href="#contactMe">Contact Me</a></li>
+        <a href="#resume">Resume</a></li>
+    </nav>    
+
     <main>
-        <div class="container">
-            <img class="chevron" src="assets/css/chevron.png" alt="Chevron Wallpaper">
-            <h2 class="subtitle">My Portfolio Page!</h2>
-        </div>
-        <section>
-            <h1 id="aboutMe">About <span><br></span>Me</h1>
+
+    <section>
+        <div class="about-me">
+            <h2 id="aboutMe">About Me</h2>
+            <img src="assets/images/profile-pic.jpeg">
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc pulvinar sapien et ligula. Id nibh tortor id aliquet. Hendrerit gravida rutrum quisque non. Tempor commodo ullamcorper a lacus vestibulum sed arcu non odio.
-                <br><br>
-                Imperdiet proin fermentum leo vel orci porta non. Dui id ornare arcu odio ut sem nulla pharetra diam. Tincidunt tortor aliquam nulla facilisi. Ultricies mi eget mauris pharetra et. Volutpat est velit egestas dui id. Nunc mi ipsum faucibus vitae aliquet. Id faucibus nisl tincidunt eget.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc pulvinar sapien et ligula. Id nibh tortor id aliquet. Hendrerit gravida rutrum quisque non. Tempor commodo ullamcorper a lacus vestibulum sed arcu non odio.
+            <br><br>
+            Imperdiet proin fermentum leo vel orci porta non. Dui id ornare arcu odio ut sem nulla pharetra diam. Tincidunt tortor aliquam nulla facilisi. Ultricies mi eget mauris pharetra et. Volutpat est velit egestas dui id. Nunc mi ipsum faucibus vitae aliquet. Id faucibus nisl tincidunt eget.
             </p>
-        </section>
-        <section class="card-holder"> 
-            <h1 id="work">Work</h1> 
-            <figure>
-                <a href="https://github.com/erinlim2001/HW1-refactor">
-                <img src="assets/css/surf-report.png"></a>
-            </figure>
-                <div id="label-refractor">
-                    <h2>Code Refactor</h2>
-                    <p>HTML/CSS</p>
-                </div>  
+        </div>
 
-            <section class= "card-holder">
-                <figure>
-                    <a href=#>
-                    <img src="assets/css/led-wall.png"></a>
-                </figure>
-                    <div id="label-LED">
-                        <h2>LED Wall</h2>
-                        <p>Node/IoT</p>
-                    </div>  
-            </section>
-        
-            <section class= "card-holder">
-                <figure>
-                    <a href=#>
-                    <img src="assets/css/run-buddy.png"></a>
-                </figure>
-                    <div id="label-run">
-                        <h2>Run Buddy</h2>
-                        <p>HTML/CSS</p>
-                    </div>  
-            </section>
-        </section>
-        
+        <div class="work-section">
+            <h2 id=work>Work</h2>
+            <div id="horiseon">
+                <a href="https://erinlim2001.github.io/HW1-refactor/">
+                <img src="assets/images/surf-report.png">
+                </a>
+                <h3 id="horiseon-label">Code Refractor: HTML/CSS</h3>
+            </div>
 
-        <section>
-            <h1 id="contactMe">Contact <span><br></span>Me</h1>
-            <a href="tel:512-992-4123">512-992-4123</a>
-            <a href="mailto:erinlim@utexas.edu">erinlim@utexas.edu</a>
-            <a href="https://github.com/erinlim2001">GitHub</a>
-            <a href="linkedin.com/in/erinlim123">LinkedIn</a>
-        </section>
-      
-    </main>
+            <div id="second-row">
+                <a href="https://erinlim2001.github.io/HW1-refactor/">
+                <img src="assets/images/led-wall.png">
+                </a>
+                
+                <a href="https://erinlim2001.github.io/HW1-refactor/">
+                <img src="assets/images/pastel-puzzels.png">
+                </a>
+                
+            </div>
+
+            <div id="third-row">
+                <a href="https://erinlim2001.github.io/HW1-refactor/">
+                <img src="assets/images/calculator.png">
+                </a>
+                <a href="https://erinlim2001.github.io/HW1-refactor/">
+                <img src="assets/images/run-buddy.png">
+                </a>
+                
+            </div>
+
+               
+           
+
+        </div>
+   
+        <div class="contact-me">
+            <h2 id="contactMe">Contact Me</h2>
+            <div id="contact-links">
+                <a href="tel:512-992-4123">512-992-4123</a>
+                <a href="mailto:erinlim@utexas.edu">erinlim@utexas.edu</a>
+                <a href="https://github.com/erinlim2001">GitHub</a>
+            </div>
+        </div>
+        <!--<section id="aboutMe">
+            <h1>About <span><br></span>Me</h1>
+            <div>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc pulvinar sapien et ligula. Id nibh tortor id aliquet. Hendrerit gravida rutrum quisque non. Tempor commodo ullamcorper a lacus vestibulum sed arcu non odio.
+                    <br><br>
+                    Imperdiet proin fermentum leo vel orci porta non. Dui id ornare arcu odio ut sem nulla pharetra diam. Tincidunt tortor aliquam nulla facilisi. Ultricies mi eget mauris pharetra et. Volutpat est velit egestas dui id. Nunc mi ipsum faucibus vitae aliquet. Id faucibus nisl tincidunt eget.
+                </p>
+            </div>
+        </section>-->
+</main>
+    <footer>
+        <h3>
+            erinlim
+        </h3>
+    </footer>
+
 </body>
 </html>
